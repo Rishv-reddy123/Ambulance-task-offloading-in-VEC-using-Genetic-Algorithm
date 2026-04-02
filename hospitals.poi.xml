@@ -1,0 +1,29 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <!-- Hosmat Hospital (Trinity side) -->
+    <poi id="hosmat" type="hospital" color="red"
+         lane="638531681#3_0" pos="10"
+         width="30" height="30" imgFile="hospital.png"/>
+
+    <!-- St. Martha’s Hospital (Richmond Circle side) -->
+    <poi id="stmarthas" type="hospital" color="red"
+         lane="1168178847#2_0" pos="10"
+         width="30" height="30" imgFile="hospital.png"/>
+
+    <!-- Bowring Hospital (Cantonment side) -->
+    <poi id="bowring" type="hospital" color="red"
+         lane="1168178845#1_0" pos="27"
+         width="30" height="30" imgFile="hospital.png"/>
+
+    <!-- Mallya Hospital (UB City side) -->
+    <poi id="mallya" type="hospital" color="red"
+         lane="169711263#3_0" pos="20"
+         width="30" height="30" imgFile="hospital.png"/>
+
+    <!-- Manipal Hospital (further east on Old Airport Rd) -->
+    <poi id="manipal" type="hospital" color="red"
+         lane="-112657837#1_0" pos="0"
+         width="30" height="30" imgFile="hospital.png"/>
+
+</additional>

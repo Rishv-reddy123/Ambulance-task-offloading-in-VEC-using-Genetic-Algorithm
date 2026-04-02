@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    
+    <vType id="car" accel="2.0" decel="4.5" sigma="0.6"
+           length="4.5" minGap="2.5" maxSpeed="16" color="0,0,255"/>
+
+    <flow id="mgroad_e_w_1" type="car" begin="0" end="600" number="170"
+          from="169711263#0" to="638531681#5"/>
+
+    <flow id="mgroad_e_w_2" type="car" begin="0" end="600" number="170"
+          from="169711263#1" to="638531681#6"/>
+
+    <flow id="mgroad_w_e" type="car" begin="0" end="600" number="180"
+          from="638531681#6" to="169711263#0"/>
+
+    <flow id="brigade_flow_1" type="car" begin="0" end="600" number="150"
+          from="764329017#1" to="1168178847#0"/>
+
+    <flow id="residency_flow_1" type="car" begin="0" end="600" number="140"
+          from="57885826" to="-1126139654"/>
+
+    </routes>

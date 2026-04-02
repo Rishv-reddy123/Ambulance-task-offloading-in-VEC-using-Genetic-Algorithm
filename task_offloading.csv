@@ -1,0 +1,5 @@
+ambulance,severity,hospital,offload_step,offload_time_s,arrival_step,arrival_time_s,waiting_time_s,reroutes,accident_impact
+ambulance_505,critical,manipal,23,119.60590756788875,253,1145.1231056184347,14.0,1,
+ambulance_503,medium,manipal,46,180.49209219651226,390,1243.7759220977543,22.0,1,
+ambulance_504,high,bowring,113,87.18206519367774,676,238.89588713803695,427.0,13,
+ambulance_501,critical,hosmat,321,8.150562424256961,322,16.24693649408394,302.0,0,

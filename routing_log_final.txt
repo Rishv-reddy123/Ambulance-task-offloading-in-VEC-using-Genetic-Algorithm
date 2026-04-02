@@ -1,0 +1,437 @@
+
+🚦 Simulation Started
+
+
+🚘 Spawning 60 background vehicles for level=LOW
+
+🚑 ambulance_505 — Running Genetic Algorithm for Hospital Selection
+
+🧬 Generation 1
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🧬 Generation 2
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🧬 Generation 3
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🧬 Generation 4
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 stmarthas: dist=1622.9m | cong=0.00 | beds=3 | fit=0.785
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🧬 Generation 5
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🧬 Generation 6
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🧬 Generation 7
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🧬 Generation 8
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+   🏥 manipal: dist=1484.2m | cong=0.01 | beds=6 | fit=0.824
+
+🎯 FINAL SELECTION → manipal | fit=0.824 | cong=0.01 | dist=1484.2m
+
+🎯 ASSIGNED & OFFLOADED → ambulance_505 → manipal
+🔒 Hospital manipal: 1 bed reserved for ambulance_505. Beds remaining: 5
+
+🚑 ambulance_503 — Running Genetic Algorithm for Hospital Selection
+
+🧬 Generation 1
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+
+🧬 Generation 2
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+
+🧬 Generation 3
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+
+🧬 Generation 4
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+
+🧬 Generation 5
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+
+🧬 Generation 6
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 stmarthas: dist=2435.5m | cong=0.01 | beds=3 | fit=0.675
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+
+🧬 Generation 7
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+
+🧬 Generation 8
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+   🏥 manipal: dist=2021.3m | cong=0.02 | beds=5 | fit=0.748
+
+🎯 FINAL SELECTION → manipal | fit=0.748 | cong=0.02 | dist=2021.3m
+
+🎯 ASSIGNED & OFFLOADED → ambulance_503 → manipal
+🔒 Hospital manipal: 1 bed reserved for ambulance_503. Beds remaining: 4
+
+🚑 ambulance_504 — Running Genetic Algorithm for Hospital Selection
+
+🧬 Generation 1
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🧬 Generation 2
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🧬 Generation 3
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🧬 Generation 4
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🧬 Generation 5
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🧬 Generation 6
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🧬 Generation 7
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🧬 Generation 8
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+   🏥 bowring: dist=1112.6m | cong=0.04 | beds=2 | fit=0.749
+
+🎯 FINAL SELECTION → bowring | fit=0.749 | cong=0.04 | dist=1112.6m
+
+🎯 ASSIGNED & OFFLOADED → ambulance_504 → bowring
+🔒 Hospital bowring: 1 bed reserved for ambulance_504. Beds remaining: 1
+[safe_apply_route] prepended route-start edge failed: Route replacement failed for vehicle 'ambulance_505' (Vehicle is on junction-internal edge leading elsewhere).
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_505
+   Old → dist=1625.9 | cong=0.111
+   New → dist=1473.5 | cong=0.082
+   (Combined score improved: 0.240 -> 0.205)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=739.5 | cong=0.131
+   New → dist=588.2 | cong=0.106
+   (Combined score improved: 0.166 -> 0.133)
+   GA + Multi-path search applied.
+⚠️ Reroute skipped for ambulance_505: combined score not improved enough (0.230 ≥ 0.230 - 0.005)
+⚠️ Reroute skipped for ambulance_505: combined score not improved enough (0.236 ≥ 0.236 - 0.005)
+🔓 Hospital manipal is now unlocked for new reservations (if beds remain).
+
+🎉 ambulance ambulance_505 reached manipal — Task Completed
+🛏️ Hospital manipal reservation confirmed for ambulance_505. Beds remaining: 4
+⚠️ Reroute skipped for ambulance_504: combined score not improved enough (0.177 ≥ 0.177 - 0.005)
+⚠️ Reroute skipped for ambulance_504: combined score not improved enough (0.193 ≥ 0.193 - 0.005)
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=367.9 | cong=0.223
+   New → dist=338.1 | cong=0.024
+   (Combined score improved: 0.193 -> 0.051)
+   GA + Multi-path search applied.
+[safe_apply_route] prepended route-start edge failed: Route replacement failed for vehicle 'ambulance_503' (current edge '1102326203#0' not found in new route).
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_503
+   Old → dist=2369.6 | cong=0.086
+   New → dist=1988.0 | cong=0.057
+   (Combined score improved: 0.297 -> 0.239)
+   GA + Multi-path search applied.
+
+🚑 ambulance_501 — Running Genetic Algorithm for Hospital Selection
+
+🧬 Generation 1
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+
+🧬 Generation 2
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+
+🧬 Generation 3
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+
+🧬 Generation 4
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+
+🧬 Generation 5
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+
+🧬 Generation 6
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+
+🧬 Generation 7
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+
+🧬 Generation 8
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 bowring: dist=1671.2m | cong=0.22 | beds=1 | fit=0.741
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+   🏥 hosmat: dist=193.0m | cong=0.20 | beds=5 | fit=0.907
+
+🎯 FINAL SELECTION → hosmat | fit=0.907 | cong=0.20 | dist=193.0m
+
+🎯 ASSIGNED & OFFLOADED → ambulance_501 → hosmat
+🔒 Hospital hosmat: 1 bed reserved for ambulance_501. Beds remaining: 4
+🔓 Hospital hosmat is now unlocked for new reservations (if beds remain).
+
+🎉 ambulance ambulance_501 reached hosmat — Task Completed
+🛏️ Hospital hosmat reservation confirmed for ambulance_501. Beds remaining: 4
+⚠️ Reroute skipped for ambulance_504: combined score not improved enough (0.175 ≥ 0.175 - 0.005)
+⚠️ Reroute skipped for ambulance_504: combined score not improved enough (0.187 ≥ 0.187 - 0.005)
+⚠️ Reroute skipped for ambulance_503: combined score not improved enough (0.300 ≥ 0.300 - 0.005)
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=248.4 | cong=0.185
+   New → dist=243.3 | cong=0.050
+   (Combined score improved: 0.154 -> 0.060)
+   GA + Multi-path search applied.
+⚠️ Reroute skipped for ambulance_503: combined score not improved enough (0.288 ≥ 0.288 - 0.005)
+🔓 Hospital manipal is now unlocked for new reservations (if beds remain).
+
+🎉 ambulance ambulance_503 reached manipal — Task Completed
+🛏️ Hospital manipal reservation confirmed for ambulance_503. Beds remaining: 4
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.226
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.176 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.237
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.184 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.203
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.160 -> 0.023)
+   GA + Multi-path search applied.
+💥 Accident at -1093713351#0 (speed reduced)
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.218
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.171 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.211
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.166 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.209
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.165 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.237
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.184 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.253
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.196 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.254
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.196 -> 0.023)
+   GA + Multi-path search applied.
+
+🔁 REROUTE APPLIED
+   Method: yen
+   Ambulance: ambulance_504
+   Old → dist=182.0 | cong=0.242
+   New → dist=230.5 | cong=0.000
+   (Combined score improved: 0.187 -> 0.023)
+   GA + Multi-path search applied.
+✅ Accident cleared at -1093713351#0
+🔓 Hospital bowring is now unlocked for new reservations (if beds remain).
+
+🎉 ambulance ambulance_504 reached bowring — Task Completed
+🛏️ Hospital bowring reservation confirmed for ambulance_504. Beds remaining: 1

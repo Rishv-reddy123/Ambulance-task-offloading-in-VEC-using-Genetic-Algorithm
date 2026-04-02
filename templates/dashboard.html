@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ambulance Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        .card { border: 1px solid #ccc; padding: 20px; border-radius: 10px; max-width: 400px; }
+        input, select { padding: 8px; margin: 5px; width: 95%; }
+        button { padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; }
+        button:hover { background: #218838; }
+    </style>
+</head>
+<body>
+    <h1>🚑 Ambulance Dashboard</h1>
+    <form method="POST">
+        <label>Latitude:</label><br>
+        <input type="text" name="latitude" placeholder="Enter ambulance latitude" required><br>
+
+        <label>Longitude:</label><br>
+        <input type="text" name="longitude" placeholder="Enter ambulance longitude" required><br>
+
+        <label>Condition:</label><br>
+        <select name="condition" required>
+            <option value="critical">Critical</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select><br><br>
+
+        <button type="submit">Find Nearest Hospital</button>
+    </form>
+
+    {% if hospital %}
+        <hr>
+        {% if hospital.error %}
+            <p style="color:red;">{{ hospital.error }}</p>
+        {% else %}
+            <div class="card">
+                <h2>{{ hospital.name }}</h2>
+                <p><b>Contact:</b> {{ hospital.contact }}</p>
+                <p><b>Condition Level:</b> {{ hospital.level }}</p>
+                <p><b>Distance:</b> {{ hospital.distance_km }} km</p>
+                <p><b>POI ID:</b> {{ hospital.poi_id }}</p>
+            </div>
+        {% endif %}
+    {% endif %}
+</body>
+</html>

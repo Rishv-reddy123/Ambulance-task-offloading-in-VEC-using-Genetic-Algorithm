@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="bangalore_mgroad.net.xml"/>
+        <route-files value="mgroad.rou.xml,extra.rou.xml,congestion.rou.xml"/>
+        <additional-files value="hospitals.poi.xml,ambulance_trips.rou.xml"/>
+    </input>
+
+    <routing>
+        <ignore-route-errors value="true"/>
+    </routing>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+    </time>
+
+</configuration>

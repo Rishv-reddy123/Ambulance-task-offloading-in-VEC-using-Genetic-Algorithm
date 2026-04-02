@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+    
+    <!-- ============================================= -->
+    <!-- ✅ SAFE CITY CONGESTION — NO HOSPITAL LOOPS   -->
+    <!-- ✅ Covers MG Road, Brigade Road, Residency Rd -->
+    <!-- ✅ 100% safe edges (NOT touching hospitals)   -->
+    <!-- ============================================= -->
+
+    <!-- VEHICLE TYPE -->
+    <vType id="car" accel="2.0" decel="4.5" sigma="0.6"
+           length="4.5" minGap="2.5" maxSpeed="16" color="0,0,255"/>
+
+    <!-- MG ROAD EAST → WEST -->
+    <flow id="mgroad_e_w_1" type="car" begin="0" end="600" number="350"
+          from="169711263#0" to="638531681#5"/>
+
+    <flow id="mgroad_e_w_2" type="car" begin="0" end="600" number="350"
+          from="169711263#1" to="638531681#6"/>
+
+    <!-- MG ROAD WEST → EAST -->
+    <flow id="mgroad_w_e" type="car" begin="0" end="600" number="370"
+          from="638531681#6" to="169711263#0"/>
+
+    <!-- BRIGADE ROAD -->
+    <flow id="brigade_flow_1" type="car" begin="0" end="600" number="300"
+          from="764329017#1" to="1168178847#0"/>
+
+    <!-- RESIDENCY ROAD -->
+    <flow id="residency_flow_1" type="car" begin="0" end="600" number="280"
+          from="57885826" to="-1126139654"/>
+
+    <!-- ST MARKS ROAD -->
+    <flow id="stmarks_1" type="car" begin="10" end="600" number="250"
+          from="213087089" to="1168178848#0"/>
+
+    <!-- INFANTRY ROAD -->
+    <flow id="infantry_1" type="car" begin="15" end="600" number="220"
+          from="1126139654" to="1168178845#0"/>
+
+    <!-- CASTE ROAD / KASTURBA ROAD -->
+    <flow id="kasturba_1" type="car" begin="20" end="600" number="250"
+          from="764329017#0" to="-1168178847#1"/>
+
+    <!-- RICHMOND ROAD HEAVY TRAFFIC -->
+    <flow id="richmond_flow" type="car" begin="0" end="600" number="400"
+          from="-1168178848#0" to="1168178847#0"/>
+
+    <!-- DICKENSON ROAD -->
+    <flow id="dickenson_1" type="car" begin="30" end="600" number="200"
+          from="1353666169#0" to="1353666170#0"/>
+
+</routes>

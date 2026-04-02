@@ -1,0 +1,18 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <!-- RSUs placed in grid-style, evenly distributed -->
+    <poi id="rsu1" type="RSU" color="blue" x="500" y="200" width="20" height="20"/>
+    <poi id="rsu2" type="RSU" color="blue" x="1000" y="200" width="20" height="20"/>
+    <poi id="rsu3" type="RSU" color="blue" x="1500" y="200" width="20" height="20"/>
+    <poi id="rsu4" type="RSU" color="blue" x="2000" y="200" width="20" height="20"/>
+
+    <poi id="rsu5" type="RSU" color="blue" x="500" y="600" width="20" height="20"/>
+    <poi id="rsu6" type="RSU" color="blue" x="1000" y="600" width="20" height="20"/>
+    <poi id="rsu7" type="RSU" color="blue" x="1500" y="600" width="20" height="20"/>
+    <poi id="rsu8" type="RSU" color="blue" x="2000" y="600" width="20" height="20"/>
+
+    <poi id="rsu9" type="RSU" color="blue" x="1000" y="1000" width="20" height="20"/>
+    <poi id="rsu10" type="RSU" color="blue" x="1500" y="1000" width="20" height="20"/>
+
+</additional>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <!-- Background traffic type -->
+    <vType id="bg" accel="2.0" decel="4.5" sigma="0.5" length="5" maxSpeed="13.9"
+           color="0.1,0.1,1"/>
+
+
+    <!-- =================================================== -->
+    <!-- HOSMAT: fully continuous path                        -->
+    <!-- =================================================== -->
+    <route id="rt_hosmat" edges="638531681#2 638531681#3 638531681#4 638531681#5 638531681#6"/>
+    <flow id="flow_hosmat" type="bg" begin="0" end="900" vehsPerHour="3000" route="rt_hosmat"/>
+
+
+    <!-- =================================================== -->
+    <!-- ST. MARTHA'S: fixed non-looping path                 -->
+    <!-- =================================================== -->
+    <route id="rt_stm" edges="1168178847#1 1168178847#2 -1168178847#2 1126139654"/>
+    <flow id="flow_stm" type="bg" begin="0" end="900" vehsPerHour="2500" route="rt_stm"/>
+
+
+    <!-- =================================================== -->
+    <!-- BOWRING: fixed non-looping path                      -->
+    <!-- =================================================== -->
+    <route id="rt_bowring" edges="1168178845#0 1168178845#1 -1168178845#1 -1168178845#0"/>
+    <flow id="flow_bowring" type="bg" begin="0" end="900" vehsPerHour="2200" route="rt_bowring"/>
+
+
+    <!-- =================================================== -->
+    <!-- MALLYA: continuous correct path                      -->
+    <!-- =================================================== -->
+    <route id="rt_mallya" edges="169711263#2 169711263#3 -169711263#3 -169711263#2"/>
+    <flow id="flow_mallya" type="bg" begin="0" end="900" vehsPerHour="2600" route="rt_mallya"/>
+
+
+    <!-- =================================================== -->
+    <!-- MANIPAL: continuous correct path                     -->
+    <!-- =================================================== -->
+    <route id="rt_manipal" edges="-112657837#2 -112657837#1 -112657837#0 1353666169#0"/>
+    <flow id="flow_manipal" type="bg" begin="0" end="900" vehsPerHour="2400" route="rt_manipal"/>
+
+</routes>

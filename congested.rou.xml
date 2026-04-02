@@ -1,0 +1,9 @@
+<routes>
+  <vType id="bg" accel="2.0" decel="4.5" sigma="0.5" length="5" maxSpeed="13.9" color="0.5,0.5,1"/>
+  <flow id="jam_hosmat" type="bg" begin="0" end="600" vehsPerHour="2400"
+        from="638531681#2" to="638531681#4" via="638531681#3"/>
+  <flow id="jam_stm" type="bg" begin="0" end="600" vehsPerHour="1800"
+        from="1168178847#1" to="1168178847#3" via="1168178847#2"/>
+  <flow id="jam_bowring" type="bg" begin="0" end="600" vehsPerHour="1800"
+        from="1168178845#0" to="1168178845#2" via="1168178845#1"/>
+</routes>

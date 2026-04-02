@@ -1,0 +1,21 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <!-- Hospitals -->
+    <poi id="hospital1" type="hospital" color="1,0,0" x="77.5950" y="12.9721" width="50" height="50"/>
+    <poi id="hospital2" type="hospital" color="1,0,0" x="77.5799" y="12.9752" width="50" height="50"/>
+
+    <!-- Speed Limit Signs -->
+    <poi id="sign_speed1" type="speedLimit" color="0,0,1" x="77.5960" y="12.9730" width="30" height="30"/>
+    <poi id="sign_speed2" type="speedLimit" color="0,0,1" x="77.5970" y="12.9740" width="30" height="30"/>
+
+    <!-- No Horn Zone -->
+    <poi id="sign_nohorn1" type="noHorn" color="1,1,0" x="77.6060" y="12.9346" width="30" height="30"/>
+
+    <!-- Traffic Light Symbol -->
+    <poi id="sign_signal1" type="trafficLight" color="1,0.5,0" x="77.5980" y="12.9735" width="30" height="30"/>
+
+    <!-- School Zone -->
+    <poi id="sign_school1" type="schoolZone" color="1,0,1" x="77.5970" y="12.9983" width="30" height="30"/>
+
+</additional>
